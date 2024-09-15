@@ -1,0 +1,99 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+#title img{
+  margin-top: 100px;
+}
+
+#testimonial{
+  background-color:rgb(243, 243, 243);
+}
+
+#testimonial h1{
+  font-size: 2rem;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#banner{
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+
+#pricing{
+  width: 80%;
+  margin-left: 10%;
+}
+
+#pricing-title > h2{
+  font-size: 4rem;
+}
+
+#pricing-title > p{
+  font-size: 1.5rem;
+  color: grey;
+}
+
+#pricing-title{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+#pricing button{
+  border-color: rgb(31, 31, 31);
+  color: rgb(34, 34, 34);
+}
+
+#pricing .last-two{
+  color: white;
+  background-color: rgb(34, 34, 34);
+}
+#pricing #third-title{
+  border-color: rgb(34, 34, 34);
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+#pricing #third-card{
+  border-color: rgb(34, 34, 34);
+}
+
+.btn-outline-secondary{
+  color: white;
+  border-color: white;;
+}
+
+.btn-primary{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
