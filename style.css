@@ -46,6 +46,7 @@
   justify-content: space-between;
   width: 80%;
   margin-left: 10%;
+  flex-wrap: wrap;
 }
 
 #pricing{
